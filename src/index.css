@@ -7,6 +7,84 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.btnFacebook { 
+  width: 300px;
+  height:80px;  
+  border-radius: 4px;
+  background: #3b5998;
+  color:white;
+  border:0px transparent;  
+  text-align: center;
+  margin:5px;
+  display: inline-block;
+}
+.btnGoogle { 
+  width: 300px;
+  height:80px;
+  border-radius: 4px;
+  background: #c74120;
+  color:white;
+  border:0px transparent;  
+  text-align: center;
+  margin:5px;
+  display: inline-block;
+}
+ul.loc{
+  border-left: 5px solid red;
+  background-color: #f1f1f1;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+.btnGit { 
+  width: 300px;
+  height:80px; 
+  border-radius: 4px;
+  background: #414449;
+  color:white;
+  border:0px transparent;  
+  text-align: center;
+  margin:5px;
+  display: inline-block;
+}
+.btnSignOut { 
+  width: 165px;
+  height:70px;  
+  border-radius: 4px;
+  background: #2f9bc5;
+  color:white;
+  border:0px transparent;  
+  text-align: center;
+  top:0;
+  right:0;
+  margin:5px;
+  display: inline-block;
+}
+.btnFacebook:hover {
+  background: #3b5998;
+  opacity: 0.6;
+}
+.btnGoogle:hover {
+  background: #c74120;
+  opacity: 0.6;
+}
+.btnGit:hover {
+  background: #414449;
+  opacity: 0.6;
+}
+.btnSignOut:hover {
+  background: #2f9bc5;
+  opacity: 0.6;
+}
+.listElem{
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
